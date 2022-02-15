@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+ul, li{list-style: none;}
+
+.back{background: rgb(0,0,0);width: 100%;height: 550px;position: relative;top: 0;overflow: hidden;}
+.gradient{background: rgb(0,0,0);background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 75%, rgba(0,0,0,1) 98%);width: 100%;height: 100%;position: absolute;top: 0;right: 0%;}
+.back img{height: 100%;position: absolute;right: 2%;}
+.cover{position: absolute;top: 250px;left: 10%;z-index: 99;box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.2);}
+
+.btn{position: absolute;left: 480px;top: 450px;}
+button{border: none;}
+.btn .play{width: 120px;height: 40px;background: #fff;border-radius: 4px;margin-right: 12px;font-weight: 700;}
+.btn .play i{margin-right: 8px;}
+.btn .like{width: 40px;height: 40px;border-radius: 100%;background: rgba(255, 255, 255, 0.1);border: 2px solid #fff;color: #fff;}
+.content{position: relative;width: 100%;padding: 100px 10% 180px;background: #111;color: #fff;font-size: 16px;}
+.title{font-size: 32px;margin-bottom: 30px;}
+
+.info{display: flex;flex-direction: row;}
+.rating i{margin-right: 6px;color: rgb(236, 41, 41);font-size: 14px;}
+.rating span{color: rgb(236, 41, 41);font-size: 16px;}
+.rating, .year{margin-right: 12px;}
+.genres{display: flex;flex-direction: row;margin-bottom: 24px;}
+.genres li{margin-right: 8px;}
+
